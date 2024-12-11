@@ -40,7 +40,7 @@ public class Login extends JFrame {
                     // Jika login berhasil, buka aplikasi utama
                     JOptionPane.showMessageDialog(null, "Login berhasil!");
                     dispose(); // Tutup jendela login
-                    new InvestoManager().setVisible(true); // Buka aplikasi utama
+                    new InvestasiGUI().setVisible(true); // Buka aplikasi utama
                 } else {
                     JOptionPane.showMessageDialog(null, "Username atau password salah!");
                 }
